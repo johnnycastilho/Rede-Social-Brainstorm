@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-left:197px;
+	margin-top:45px;
+	}
+	
+#header {
+	width:976px;
+	height:238px;
+	position:absolute;
+	margin-left:10px;
+	}
+	
+#header h1 {
+	text-shadow: 0.1em 0.1em 0.2em #7f8388;
+	font-family: 'Cantarell', sans-serif;
+	}
+.sep_sup {
+	height:5px;
+	width:976px;
+	background-color:#4b4b4d;
+	position:absolute;
+	margin-top:10px;
+	}
+	
+.sep_inf {
+	height:5px;
+	width:976px;
+	background-color:#4b4b4d;
+	position:absolute;
+	margin-top:180px;
+	}
+	
+#header h1 {
+	position:absolute;
+	margin-left:80px;
+	margin-top:50px;
+	}
+	
+.img_pc {
+	position:absolute;
+	margin-left:650px;
+	margin-top:30px;}
+	
+.seta {
+	height:34px;
+	width:100px;
+	position:absolute;
+	margin-top:185px;
+	margin-left:700px;
+	}
+	
+.seta2 {
+	position:absolute;
+	margin-left:695px;
+	margin-top:185px;
+	height:82px;
+	width:100px;}
+	
+.create_pc {
+	text-decoration:none;
+	text-align:center;
+	line-height:2;
+	color:#FFF;
+	font-family: 'Cantarell', sans-serif;
+	font-size:18px;
+	box-shadow: 0px 1px 10px 1px #075d90 inset;
+	position:absolute;
+	background-color:#0d77b6;
+	height:40px;
+	width:130px;
+	margin-left:560px;
+	margin-top:190px;
+	text-shadow:0.1em 0.1em 0.1em #333333;
+	}
+	
+.tutorial {
+	text-decoration:none;
+	text-align:center;
+	line-height:2;
+	color:#FFF;
+	font-family: 'Cantarell', sans-serif;
+	font-size:18px;
+	box-shadow: 0px 1px 10px 1px #075d90 inset;
+	position:absolute;
+	background-color:#0d77b6;
+	height:40px;
+	width:130px;
+	margin-left:700px;
+	margin-top:190px;
+	text-shadow:0.1em 0.1em 0.1em #333333;
+	}
+	
+.tutorial:hover {
+	background-color:#0d77b6;}
+	
+.create_pc:hover {
+	background-color:#0d77b6;
+	}
+	
+#filter {
+	position:absolute;
+	margin-top:180px;
+	margin-left:100px;}
+	
+#filter li {
+	list-style:none;
+	display:inline-block;
+	height:25px;
+	width:auto;
+	border-radius:5px;
+	background-color:#e4e4e4;
+	font-family: 'Cantarell', sans-serif;
+	font-size:18px;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	}
+	
+#filter li:hover {
+	box-shadow: 0px 1px 10px 1px #f0f0f0;
+	}
+	
+#filter a {
+	text-decoration:none;
+	color:#4b4b4d;
+}
+
+#area_pesquisas {
+	height:auto;
+	width:900px;
+	margin-top:220px;
+	margin-left:50px;}
+	
+#pesquisa {
+	height:212px;
+	width:400px;
+	margin-top:50px;
+	margin-left:40px;
+	display:inline-block;
+	}
+	
+#capa_perfil {
+	position:absolute;
+	width:1002px;
+	height:240px;
+	background-image:url(../images/pesquisa_campo.png);
+	box-shadow:1px 1px 1px 1px #6d6a6a;
+	margin-left:-10px;	
+	}
+	
+#capa_perfil span {
+	height:12px;
+	width:1003px;
+	position:absolute;
+	background-color:#0d77b6;
+	margin-top:230px;
+	box-shadow: 0px 1px 1px 1px #6d6a6a;
+	}
+	
+#pesquisa h1 {
+	font-size:20px;
+	text-align:center;
+	font-family: 'Cantarell', sans-serif;
+	
+	}
+	
+#pesquisa p {
+	text-align:justify;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+#pesquisa textarea {
+	width:380px;
+	height:100px;
+	background-color:#f0f0f0;
+	border:0;
+	text-align:justify;
+	font-family: 'Cantarell', sans-serif;
+	font-size:17px;}
+	
+.ir_pesquisa {
+	position:absolute;
+	height:25px;
+	width:110px;
+	background-color:#45484b;
+	font-size:20px;
+	text-decoration:none;
+	color:#FFF;
+	text-align:center;
+	border-radius:4px;
+	margin-left:150px;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	z-index:3;
+	}
+	
+.ir_pesquisa:hover {
+	background-color:#666b6f;}
+	
+.sombra {
+	height:20px;
+	width:400px;
+	margin-top:3px;
+	}
+	
+.teste_classe {
+	width: 550px;
+ 	height: 350px;
+	display:none;
+	background-color:#2e3031;
+	border:1px solid #CCC;
+	}
+	
+.teste_classe2 {
+	width: 550px;
+ 	height: 350px;
+	display:none;
+	background-color:#2e3031;
+	border:1px solid #CCC;
+	}
+	
+.teste_classe h1 {
+	font-size:25px;
+	text-align:center;
+	color:#FFF;
+	text-shadow:0.1em 0.1em 0.1em #333333;
+	}
+	
+.teste_classe p {
+	width:500px;
+	text-align:justify;
+	margin-left:30px;
+	color:#FFF;
+	text-align:justify;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+.logo_google {
+	margin-left:190px;
+	height:113px;
+	width:150px;}
+	
+.seta_next {
+	margin-left:240px;
+	height:65px;
+	width:90;
+	}
+	
+/*area da criação da pesquisa de campo*/
+
+.header_pesquisa {
+	text-align:center;
+	font-size:22px;
+	color:#f0f0f0;}
+
+.titulo_pesquisa {
+	position:absolute;
+	margin-left:80px;
+	margin-top:5px;
+	text-align:center;
+	}
+	
+.cont_pesquisa {
+	position:absolute;
+	margin-top:40px;
+	margin-left:65px;
+	text-align:justify;
+	}
+	
+.link_pesquisa {
+	position:absolute;
+	margin-top:225px;
+	margin-left:80px;
+	text-align:center;
+	}
+	
+.publicar {
+	position:absolute;
+	height:35px;
+	width:80px;
+	margin-top:255px;
+	margin-left:250px;
+	cursor:pointer;
+	}
+	
+.publicar:hover {
+	background-color:#666;}
+

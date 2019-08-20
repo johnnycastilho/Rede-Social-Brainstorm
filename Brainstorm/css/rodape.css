@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Rodape */
+
+
+#rodape {	
+	position:absolute;
+	height:246px;
+	width:1200px;
+	background-color:#4b4b4d;
+	box-shadow: 1px 15px 25px #34373e inset;	
+}
+
+#redes {
+	right:80px;
+	margin-top:25px;
+	position:absolute;
+	}
+	
+#email {
+	position:absolute;
+	left:465px;
+	margin-top:10px;
+	font-family: 'Cantarell', sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	}
+	
+#copy {
+	position:absolute;
+	left:455px;
+	margin-top:210px;
+	font-family: 'Cantarell', sans-serif;
+	font-size:16px;
+	color:#CCC;
+	}
+	
+#jobs {
+	position:absolute;
+	right:220px;
+	margin-top:190px;
+	}
+
+.topo {
+	background-image:url(../images/topo_btn.png);
+	position:absolute;
+	height:36px;
+	width:89px;
+	right:100px;
+	margin-top:210px;	
+	}
+	
+#menu_rod {
+	position:absolute;
+	left:100px;
+	z-index:2;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+.img_rod {
+	position:absolute;
+	left:100px;
+	margin-top:50px;
+	z-index:1;
+	}
+
+#menu_rod li {
+	list-style:none;
+	padding-top:13px;
+	}
+#menu_rod a {
+	text-decoration:none;
+	color:#999;
+	font-size:16px;}
+
+
+ Rodape */

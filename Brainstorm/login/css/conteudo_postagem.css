@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-top:49px;
+	margin-left:270px;
+	}
+	
+#form_postagem {
+	height:auto;
+	width:900px;
+	margin-top:40px;
+	}
+	
+#form_postagem input,textarea {
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	}
+	
+
+#form_postagem h1 {
+	margin-left:360px;
+	font-family: 'Cantarell', sans-serif;}
+	
+.titulo_post {
+	height:30px;
+	margin-left:130px;
+	text-align:center;
+	}
+#form_postagem label {
+	margin-left:220px;
+	position:absolute;
+	font-size:18px;
+	font-family: 'Cantarell', sans-serif;}
+	
+.anexo_post {
+	margin-left:290px;
+	background-color:#FFF;}
+	
+.email_post {
+	margin-left:90px;
+	text-align:center;
+	}
+	
+#form_postagem textarea {
+	margin-left:60px;
+	}
+	
+.submit {
+	background-color:#000;
+	height:30px;
+	width:120px;
+	font-family: 'Cantarell', sans-serif;
+	color:#FFF;
+	cursor:pointer;
+	margin-left:350px;
+	}
+	
+.submit:hover {
+	background-color:#666;}
+

@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-left:230px;
+	margin-top:49px;
+	}
+	
+#capa_perfil {
+	position:absolute;
+	width:1002px;
+	height:240px;
+	background-image:url(../images/Criando_TCC.png);
+	box-shadow:1px 1px 1px 1px #6d6a6a;
+	margin-left:-13px;
+	margin-top:-3px;	
+	}
+	
+#capa_perfil span {
+	height:12px;
+	width:1003px;
+	position:absolute;
+	background-color:#0d77b6;
+	margin-top:230px;
+	box-shadow: 0px 1px 1px 1px #6d6a6a;
+	}
+	
+#header {
+	width:976px;
+	height:238px;
+	position:absolute;
+	margin-left:-20px;
+	}
+	
+#header h1 {
+	position:absolute;
+	text-shadow: 0.1em 0.1em 0.2em #7f8388;
+	margin-top:50px;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+#header h2 {
+	position:absolute;
+	text-shadow: 0.1em 0.1em 0.2em #7f8388;
+	font-size:21px;
+	margin-top:140px;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+.sep_sup {
+	height:5px;
+	width:976px;
+	background-color:#4b4b4d;
+	position:absolute;
+	margin-top:10px;
+	border-radius:3px;
+	box-shadow:1px 1px 1px 1px #999999;
+	}
+	
+.sep_inf {
+	height:5px;
+	width:976px;
+	background-color:#4b4b4d;
+	position:absolute;
+	margin-top:180px;
+	}
+	
+.img_ct {
+	margin-left:650px;
+	margin-top:30px;
+	}
+	
+#filter {
+	position:absolute;
+	margin-top:235px;
+	margin-left:100px;}
+	
+#filter li {
+	list-style:none;
+	display:inline-block;
+	height:25px;
+	width:auto;
+	border-radius:5px;
+	background-color:#e4e4e4;
+	font-family: 'Cantarell', sans-serif;
+	font-size:17px;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	}
+	
+#filter li:hover {
+	box-shadow: 0px 1px 10px 1px #f0f0f0;
+	}
+	
+#filter a {
+	text-decoration:none;
+	color:#4b4b4d;
+}
+
+#filter label {
+	position:absolute;
+	margin-left:-100px;
+	color:#4b4b4d;
+	font-size:19px;
+	font-family: 'Cantarell', sans-serif;}
+	
+#area_post {
+	height:auto;
+	width:900px;
+	margin-top:240px;
+	margin-left:50px;}
+	
+#post {
+	height:212px;
+	width:400px;
+	margin-top:50px;
+	margin-left:20px;
+	display:inline-block;
+	}
+	
+#post h1 {
+	font-size:20px;
+	text-align:center;
+	font-family: 'Cantarell', sans-serif;
+	
+	}
+	
+#post p {
+	text-align:justify;
+	font-family: 'Cantarell', sans-serif;}
+	
+.ir_post {
+	position:absolute;
+	height:25px;
+	width:100px;
+	background-color:#45484b;
+	font-size:20px;
+	text-decoration:none;
+	color:#FFF;
+	text-align:center;
+	border-radius:4px;
+	margin-left:150px;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	z-index:3;
+	}
+	
+.ir_post:hover {
+	background-color:#666b6f;
+	}
+	
+.sombra {
+	height:20px;
+	width:400px;
+	margin-top:3px;
+	}
+	
+	
+/*comeco da formatação do visualizando as postagens do criando tcc*/
+
+
+#view_post {
+	position:absolute;
+	margin-top:50px;
+	margin-left:70px;
+	width:900px;
+	height:auto;
+	}
+	
+#view_post h1{
+	position:absolute;
+	margin-left:190px;
+	text-shadow:0.1em 0.1em 0.1em #666666;
+	}
+	
+.img_viewpost {
+	position:absolute;
+	margin-top:100px;
+	margin-left:120px;
+	box-shadow: 0px 6px 15px 1px #6d6a6a;}
+	
+#view_post p {
+	position:absolute;
+	margin-top:360px;
+	margin-left:50px;
+	text-align:justify;
+	width:650px;
+	}
+	
+#end {
+	position:absolute;
+	margin-left:-34px;
+	margin-top:-4px;
+	width:1004px;
+	height:50px;
+	background-color:#dad9d9;
+	}
+	
+#end a {
+	position:absolute;
+	margin-left:50px;
+	height:50px;
+	width:80px;
+	text-align:center;
+	line-height:3;
+	text-decoration:none;
+	color:#FFF;
+	font-size:19px;
+	}
+	
+#end a:hover {
+	color:#000;
+	}

@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-left:230px;
+	margin-top:49px;
+	
+	}
+	
+#filtro_cursos {
+	height:38px;
+	width:860px;
+	position:absolute;
+	margin-top:40px;
+	margin-left:62px;
+	background-color:#333333;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	}
+	
+#filtro_cursos ul {
+	list-style:none;
+	margin-top:0px;
+	margin-left:-18px;
+	position:absolute;
+	}
+	
+#filtro_cursos li {
+	display:inline-block;
+	padding-left:1px;
+	margin-left:20px;
+	color:#FFF;
+	font-size:16px;
+	height:38px;
+	width:120px;
+	line-height:2;
+	text-align:center;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+#filtro_cursos input {
+	background-color:transparent;
+	font-family: 'Cantarell', sans-serif;
+	font-size:16px;
+	height:38px;
+	border:0;
+	color:#FFF;
+	margin-left:-4px;
+	}
+	
+#filtro_cursos input:hover {
+	color:#000;
+	box-shadow:0px 5px 3px  #666666 inset;
+	background-color:#999;}
+
+	
+#align_post {
+	height:auto;
+	width:auto;
+	margin-top:120px;}
+	
+#postagem {
+	position:relative;
+	margin-left:150px;
+	height:226px;
+	width:660px;
+	}
+	
+#post {
+	position:absolute;
+	height:auto;}
+
+	
+#conteudo_post {
+	height:186px;
+	width:660px;
+	position:absolute;}
+	
+.foto_post {
+	height:111px;
+	width:92px;
+	position:absolute;
+	margin-top:20px;
+	box-shadow: 0px 2px 10px -1px #6d6a6a;}
+	
+.nome_post {
+	margin-left:110px;
+	margin-top:5px;
+	font-family: 'Cantarell', sans-serif;
+	font-size:25px;
+	position:absolute;
+	}
+	
+.network {
+	position:absolute;
+	text-decoration:none;
+	height:24px;
+	width:131px;
+	background-color:#0d77b6;
+	margin-left:520px;
+	margin-top:12px;
+	text-align:center;
+	color:#FFF;
+	font-size:17px;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	box-shadow: 0px 2px 10px -1px #6d6a6a;
+	text-shadow:0.1em 0.1em 0.1em #666;}
+	
+.network:hover {
+	
+	background-color:#47a3da;
+	}
+	
+.cont_post {
+	margin-left:110px;
+	text-align:justify;
+	margin-top:50px;
+	font-family: 'Cantarell', sans-serif;
+	position:absolute;
+	}
+	
+.cont_post textarea {
+	background-color:#f0f0f0;
+	border:0;
+	text-align:justify;
+	font-family: 'Cantarell', sans-serif;
+	font-size:15px;
+	}
+	
+#block {
+	width:520px;
+	height:380px;
+	position:absolute;}
+	
+.sep_post {
+	width:660px;
+	position:absolute;
+	margin-top:-23px;
+	z-index:1;
+	}
+
+/*exibe_pesquisa*/
+
+#people {
+	position:absolute;
+	margin-top:100px;
+	margin-left:230px;
+	width:700px;
+	height:auto;
+	}
+	
+.table {
+	width:410px;
+	background-color:#c6c6c6;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	margin-left:7px;
+	margin-top:7px;
+	}
+#people tr {
+	height:146px;
+	}
+	
+	
+.img_net {
+	height:124px;
+	width:111px;
+	margin-left:5px;
+	margin-top:5px;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;}
+	
+.nome_net {
+	position:absolute;
+	margin-top:-100px;
+	margin-left:150px;
+	width:250px;
+	font-size:19px;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+.grupo_net {
+	position:absolute;
+	margin-top:-30px;
+	margin-left:150px;
+	font-family: 'Cantarell', sans-serif;
+	}
+	
+.text_ep {
+	position:absolute;
+	font-size:19px;
+	font-family: 'Cantarell', sans-serif;
+	margin-left:335px;
+	margin-top:60px;
+	}
+	
+.network2 {
+	position:absolute;
+	text-decoration:none;
+	height:24px;
+	width:131px;
+	background-color:#0d77b6;
+	margin-left:-150px;
+	margin-top:35px;
+	text-align:center;
+	color:#FFF;
+	font-size:17px;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	box-shadow: 0px 2px 10px -1px #6d6a6a;
+	text-shadow:0.1em 0.1em 0.1em #666;}
+	
+.network2:hover {
+	
+	background-color:#47a3da;
+	}
+	
+	/*exibe_pesquisa*/

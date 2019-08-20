@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-top:49px;
+	}
+	
+#topo_arquivos {
+	position:absolute;
+	height:225px;
+	width:1002px;
+	margin-left:198px;
+	margin-top:-4px;
+	background-image:url(../images/capa_arquivos.png);
+	box-shadow:3px 3px 12px 1px #999999;
+	}
+	
+#topo_arquivos h1 {
+	margin-left:102px;
+	font-family: 'Cantarell', sans-serif;}
+	
+.form_files {
+	position:absolute;
+	margin-top:230px;
+	margin-left:218px;
+	height:auto;
+	width:776px;
+	}
+	
+#file {
+	margin-top:17px;
+	margin-left:90px;
+	box-shadow:50px 1px 12px 1px #999999;
+	}
+	
+.check {
+	position:absolute;
+	margin-top:7px;
+	}
+	
+.name_file {
+	width:776px;
+	background-color:#0d77b6;
+	text-align:center;
+	line-height:2;
+	font-family: 'Cantarell', sans-serif;
+	}
+
+.name_file a {
+	text-decoration:none;
+	color:#f0f0f0;}
+	
+.data {
+	position:absolute;
+	margin-top:-26px;
+	margin-left:670px;
+	color:#f0f0f0;
+	}
+	
+.delete_file {
+	position:absolute;
+	height:55px;
+	width:67px;
+	background-image:url(../images/delete.png);
+	border:1px solid #000;
+	}
+	
+.submit {
+	position:absolute;
+	margin-top:-64px;
+	margin-left:800px;
+	border:1px solid #000;
+	z-index:10;
+	}

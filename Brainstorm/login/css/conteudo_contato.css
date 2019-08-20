@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#conteudo {
+	position:absolute;
+	width:976px;
+	height:auto;
+	margin-left:200px;
+	margin-top:49px;
+	}
+	
+h1 {
+	
+	margin-left:150px;}
+	
+form {
+	margin-left:150px;}
+	
+.boneco {
+	position:absolute;
+	margin-top:20px;
+	margin-left:600px;
+	}
+	
+label {
+	font-size:18px;}

@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	margin:0 auto;
+	padding:0;
+	background-color:#f0f0f0;
+	overflow-x:hidden;
+	}
+
+#topo {
+	height:45px;
+	background-color:#0d77b6;
+	width:1200px;
+	position:fixed;
+	box-shadow: 1px -5px 25px #47a3da inset;
+	z-index:2;
+	border-radius:2px;
+	}
+
+
+#barra_inf {
+	margin:0 auto;
+	padding:0;
+	margin-top:43px;
+	height:2px;
+	background-color:#000;
+	width:1200px;
+	position:fixed;
+	z-index:2;
+	}
+	
+.logo {
+	position:absolute;
+	left:20px;
+	margin-top:3px;
+	margin-left:15px;}
+	
+.form_search {
+	position:fixed;
+	margin-left:850px;
+	margin-top:9px;
+	z-index:2;}
+
+.form_search input {
+	position:absolute;
+	width:250px;
+	z-index:2;
+	}
+	
+.exit_btn {
+	position:fixed;
+	color:#FFF;
+	font-size:33px;
+	margin-left:1150px;
+	margin-top:3px;
+	z-index:2;
+}
+
+.exit_btn img {
+	width:40px;
+	height:38px;}
+
+.sep {
+	margin-top:5px;
+	position:fixed;
+	margin-left:1130px;
+	z-index:2;
+	}
+
+
+
+#pagina {
+	margin:0 auto;
+	padding:0;
+	width:1200px;
+	height:auto;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;}
+
+
+
+#menu_lateral {
+	margin-top:45px;
+	position:fixed;
+	width:196px;
+	height:665px;
+	
+	}
+	
+.foto_perfil {
+	position:absolute;
+	height:180px;
+	width:170px;
+	margin-left:15px;
+	margin-top:2px;
+	z-index:1;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;}
+	
+#notific {
+	height:45px;
+	position:absolute;
+	margin-top:160px;
+	margin-left:5px;
+	}
+	
+.teste_classe {
+	width: 400px;
+ 	height: auto; 
+	display: none;
+	
+	}
+	
+.teste_classe7 {
+	width: 400px;
+ 	height: auto; 
+	display: none;
+	
+	}
+	
+.teste_classe3 {
+	width: 400px;
+ 	height: auto; 
+	display: none;
+	
+	}
+	
+.teste_classe4 {
+	width: 400px;
+ 	height: auto; 
+	display: none;
+	
+	}
+
+.msg_not {
+	position:absolute;
+	top:30px;
+	color:#f0f0f0;
+	width:400px;
+	font-size:15px;
+	font-family: 'Cantarell', sans-serif;
+	z-index:1;
+	}
+	
+#slide_not {
+	position:fixed;
+	height:auto;
+	width:auto;
+	top:100px;
+	left:550px;
+	}
+		
+#solicit_friend {
+	height:100px;
+	width:400px;
+	background-color:#f0f0f0;
+	box-shadow: 1px 1px 20px #c0c0c1;
+	}
+	
+#solicit_friend p {
+	text-align:center;
+	font-size:15px;
+	font-family: 'Cantarell', sans-serif;}
+	
+.accept {
+	height:25px;
+	width:75px;
+	position:absolute;
+	text-decoration:none;
+	background-color:#0d77b6;
+	margin-left:100px;
+	text-align:center;
+	color:#FFF;
+	font-size:17px;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	box-shadow: 0px 2px 10px -1px #6d6a6a;
+	text-shadow:0.1em 0.1em 0.1em #666;
+	}
+	
+.accept:hover {
+	background-color:#00F;}
+	
+.denied {
+	height:25px;
+	width:75px;
+	position:absolute;
+	text-decoration:none;
+	background-color:#0d77b6;
+	margin-left:240px;
+	text-align:center;
+	color:#FFF;
+	font-size:17px;
+	font-family: 'Cantarell', sans-serif;
+	line-height:1;
+	box-shadow: 0px 2px 10px -1px #6d6a6a;
+	text-shadow:0.1em 0.1em 0.1em #666;
+	}
+	
+.denied:hover {
+	background-color:#00F;}
+	
+#notific .msg {
+	position:absolute;
+	margin-left:135px;
+	margin-top:4px;
+	}
+	
+#notific .not {
+	position:absolute;
+	margin-left:75px;
+	margin-top:3px;}
+	
+#notific .amg {
+	position:absolute;
+	margin-left:5px;
+	margin-top:2px;}
+	
+#notific .amg:hover {
+	background-color:#dddada;}
+	
+#notific .not:hover {
+	background-color:#dddada;}
+	
+#notific .msg:hover {
+	background-color:#dddada;
+	}
+
+	
+#menu {
+	
+	height:390px;
+	width:196px;
+	margin-top:210px;
+	position:absolute;
+	line-height:50px;
+	box-shadow: 0px 1px 10px 1px #6d6a6a;
+	
+	
+	}
+	
+#menu ul {
+	position:absolute;
+	margin-left:-40px;
+	margin-top:-50px;
+	}
+	
+#menu li {
+	list-style:none;
+	height:49px;
+	width:196px;
+	background-color:#0d77b6;
+	box-shadow: 0px 1px 10px 1px #075d90 inset;
+	text-align:center;
+	font-family: 'Cantarell', sans-serif;
+	
+	
+	}
+	
+#menu a {
+	text-decoration:none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:18px;
+	color:#f0f0f0;
+	text-shadow:0.1em 0.1em 0.1em #666;}
+	
+#menu li:hover {
+	background-color:#0d77b6;
+	box-shadow: 1px 5px 25px #47a3da inset;
+	}
+
+
+/*Botão de sair*/
+
+.config {
+	position:fixed;
+	margin-left:1100px;
+	margin-top:-12px;
+	width:100px;
+	z-index:10;
+}
+.config ul {
+	font-weight:900;
+	width:170px;
+}
+.config ul li {
+	position:relative;
+	list-style:none;
+	cursor:pointer;
+}
+.config ul li ul {
+	position:absolute;
+	margin-left:-147px;
+	top:45px;
+}
+.config ul .clicker {
+	width:1px;
+	height:1px;
+	background-color:#0d77b6;
+}
+
+.config ul .clicker:hover {
+	width:1px;
+	height:1px;
+	background-color:#0d77b6;
+}
+
+.clicker li img {
+position:absolute;
+margin-top:-10px;
+margin-left:-55px;
+}
+.config img {
+	position:absolute;
+	top:9px;
+	left:12px;
+	
+}
+
+.config ul {
+
+	margin-top:5px;
+	}
+.config ul li a {
+	transition:background-color 0.2s ease-in-out;
+	-webkit-transition:background-color 0.2s ease-in-out;
+	-moz-transition:background-color 0.2s ease-in-out;
+	display:block;
+	padding:8px 10px 8px 40px;
+	background:#FFF;
+	color:#333;
+	text-decoration:none;
+}
+.config ul li a:hover {
+	background:#F2F2F2;
+}
+/* Fallbacks */
+.config .no-js ul {
+	display:none;
+}
+.config .no-js:hover ul {
+	display:block;
+}
+
+
+/*Botão de sair*/
+
+/*criar depoimento*/
+
+.create_depo {
+	width: 400px;
+ 	height: auto; 
+	display: none;	
+	}
+	
+#area_criar_depo {
+	background-color:#333;
+	height:300px;
+	width:500px;
+	border:1px solid #FFF;
+	}
+#area_criar_depo label {
+	position:absolute;
+	font-family: 'Cantarell', sans-serif;
+	color:#FFF;
+	margin-left:45px;
+	margin-top:10px;
+	width:500px;
+	}
+	
+#area_criar_depo textarea {
+	height:200px;
+	width:400px;
+	max-height:200px;
+	max-width:400px;
+	margin-left:40px;
+	margin-top:50px;
+	}
+	
+#area_criar_depo input {
+	margin-left:-250px;
+	margin-top:262px;
+	position:absolute;
+	height:33px;
+	width:80px;
+	font-family: 'Cantarell', sans-serif;
+	font-size:17px;
+	}
+	

@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#conteudo {
+	
+	height:1000px;
+	box-shadow: 1px 15px 25px #c0c0c1 inset;
+	}
+	
+.mapasite {
+	position:absolute;
+	height:1000px;
+	width:1200px;
+	border:1px solid #000;
+	}
+	
+.img1 {
+	position:absolute;
+	margin-top:80px;
+	margin-left:200px;
+	}
+
+.img2 {
+	position:absolute;
+	margin-top:115px;
+	margin-left:500px;
+	}
+.home {
+	position:absolute;
+	margin-top:140px;
+	margin-left:270px;
+	}
+.quemsomos {
+	position:absolute;
+	margin-top:200px;
+	margin-left:440px;
+	}
+	
+.cursos {
+	position:absolute;
+	margin-top:275px;
+	margin-left:440px;
+	}
+	
+.instituicao {
+	position:absolute;
+	margin-top:350px;
+	margin-left:440px;
+	}
+	
+.depoimento {
+	position:absolute;
+	margin-top:435px;
+	margin-left:440px;
+	}
+	
+.infoweb {
+	position:absolute;
+	margin-top:275px;
+	margin-left:830px;
+	}
+	
+.info {
+	position:absolute;
+	margin-top:330px;
+	margin-left:830px;
+	}
+	
+.nut {
+	position:absolute;
+	margin-top:380px;
+	margin-left:830px;
+	}
+	
+.adm {
+	position:absolute;
+	margin-top:434px;
+	margin-left:830px;
+	}
+	
+.sec {
+	position:absolute;
+	margin-top:487px;
+	margin-left:830px;
+	}
+	
+#mapasite a {
+	text-decoration:none;
+	font-size:18px;
+	color:#000;
+	font-family: 'Cantarell', sans-serif;}
+
+
